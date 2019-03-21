@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CepApp"
+             x:Class="CepApp.MainPage"
+             >
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Entry Placeholder="CEP" 
+                Margin="20" 
+                x:Name="txtCEP"
+                Completed="Handle_Completed"
+                />
+        
+        <Label Text="Logradouro"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblLogradouro"
+               />
+        <Label Text="Complemento"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblComplemento"
+               />
+        
+        <Label Text="Bairro"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblBairro"
+               />
+        <Label Text="Localidade"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblLocalidade"
+               />
+        <Label Text="UF"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblUF"
+               />
+        <Label Text="Unidade"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblUnidade"
+               />
+        <Label Text="IBGE"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblIBGE"
+               />
+        <Label Text="GIA"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               x:Name="lblGIA"
+               />
+    </StackLayout>
+</ContentPage>
